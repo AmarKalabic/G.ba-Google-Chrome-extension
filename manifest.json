@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "GAMERS.ba Tools by Brix",
+  "version": "1.0dev",
+  "description": "Gamers.ba skupina toolsa za Google Chrome browser",
+  "icons": {
+    "48": "img/gba48x48.jpg",
+    "128": "img/gba128x128.jpg",
+    "16": "img/gba16x16.jpg"
+  },
+  "browser_action": {
+    "default_icon": "img/gbafull.jpg",
+    "default_title": "Pritisni GAMERS.ba znak za više opcija",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "tabs",
+    "*://*/*",
+    "notifications"
+  ]
+}

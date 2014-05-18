@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 2px;
+    overflow-x: hidden;
+    background-color: rgba(255,255,255,1.0);
+    height: 236px;
+    width: 200px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+#SearchBoxControl_Wrapper_id_1 {
+    position:relative;
+    float:left;
+    width: 198px;
+    height:24px;
+    background: rgba(249,206,0,1.0);
+}
+
+#SearchBoxControl_InputText_id_1 {
+    font-size: 12px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(128,128,128,1.0);
+    height:24px;
+    position: absolute;
+
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+    z-index: 1;
+    width: 100%;
+
+    padding-left: 23px;
+
+    padding-right: 23px;
+}
+
+#SearchBoxControl_InputText_id_1:focus {
+    outline:none;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(241,202,126,1.0);
+    border-radius: 4px;
+}
+
+#SearchBoxControl_Search_id_1, #SearchBoxControl_Logo_id_1 {
+    position: absolute;
+    height: 100%;
+    width: 24px;
+}
+
+#SearchBoxControl_Search_id_1 {
+    right: 0px;
+    background:url('../img/save16x16ok.png') no-repeat center center;
+}
+
+#SearchBoxControl_Search_Ovl_id_1 {
+    position:relative;
+    float:right;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+
+#SearchBoxControl_Logo_id_1 {
+    background:url('../img/gba16x16.jpg') no-repeat center center;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: white;
+    -webkit-border-radius: 8px
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #777;
+    -webkit-border-radius: 8px
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #777;
+    -webkit-border-radius: 8px;
+}
+
+div#NewsFeedControl_id_3 {
+    position: relative;
+    float: left;
+    overflow-y: auto;
+    padding-left: 0px;
+    height: 150px;
+}
+#SeparatorControlWrapper_id_6 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+#SeparatorControl_id_6 {
+    float:left;
+    margin: 5px 0;
+    width: 190px;
+}
+#MenuItemContainer_id_5 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+    cursor: pointer;
+
+    width: 198px;
+    height: 24px;
+
+    -webkit-transition: border-color .1s ease-out;
+}
+
+#MenuItemControl_id_5 {
+    display: table;
+    clear: both;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    color: rgba(0,0,0,1.0);
+    background: rgba(0,0,0,1.0);
+
+    font-size: 12px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 3px;
+
+        margin: 0 auto;
+}
+
+#MenuItemControl_id_5:hover {
+}
+
+#MenuItemControl_Icon_id_5 {
+    background: url('../img/gba16x16.jpg') no-repeat center center;
+    height: 24px;
+    width: 24px
+}
+
+#MenuItemContainer_id_5:hover {
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgba(249,181,5,1.0);
+    border-radius: 4px;
+
+    background: rgba(7,7,7,1.0);
+    outline: 0;
+}
+
+#SocialBoxControl_id_7 {
+    width: 198px;
+    float: left;
+    height: 24px;
+    position:relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+#SocialBoxControl_id_7 ul{
+    margin: 0px;
+    position: absolute;
+    padding-left: 70px;
+    height:24px;
+    overflow:  hidden;
+}
+
+#SocialBoxControl_id_7 li{
+    float: left;
+    list-style-type: none;
+    display: block;
+}
+
+#SocialBoxControl_id_7 li {
+    cursor: pointer;
+}
+
+#SocialBoxControl_id_7 div {
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+}
+
+#SocialBoxControl_id_7 .sbFacebook div{
+
+    background-image: url('/img/social/FaceBook_24x24.png');
+}
+
+#SocialBoxControl_id_7 .sbGooglePlus div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_7 .sbLinkedIn div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_7 .sbMySpace div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_7 .sbTwitter div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_7 .sbYouTube div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/YouTube_24x24.png');
+}
